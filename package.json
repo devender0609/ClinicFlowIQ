@@ -1,0 +1,24 @@
+{
+  "name": "clinicflowiq",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "20.x"
+  },
+  "packageManager": "yarn@1.22.22",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "5.4.21",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "lucide-react": "0.468.0",
+    "recharts": "2.15.0",
+    "firebase": "10.14.1"
+  },
+  "devDependencies": {}
+}
